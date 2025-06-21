@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b3bba819-0011-42d2-b588-3dc594bddbb4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,21 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "TechnicalJin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TechnicalJin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/TechnicalJin/Varun-Portfolio.git",
-    "accountId": "a7f524cf-43f6-43bb-b107-f82da86004fa"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TechnicalJin/Varun-Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;a7f524cf-43f6-43bb-b107-f82da86004fa&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2yoR8D318hzwWwX2KpGhJV4rehV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -48,6 +49,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/jinja/OneDrive/Desktop/Portfolio",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
