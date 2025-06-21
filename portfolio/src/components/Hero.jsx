@@ -14,7 +14,7 @@ const Hero = () => {
         >
           <p className="section-subtitle">Hello, I'm</p>
           <h1 className="font-space-grotesk text-5xl font-bold text-light">
-            Akshat <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Creative Developer</span>
+            Varun <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Creative Developer</span>
           </h1>
           <p className="text-gray mt-4">
             I create innovative digital experiences by blending cutting-edge technology with creative design.
@@ -58,7 +58,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           whileHover={{ scale: 1.1, boxShadow: '0 20px 40px rgba(0, 0, 0, 0.4)' }}
         >
-          <img src="images/AkshatPortfolio2.jpg" alt="Akshat Mehta" className="w-full h-full object-cover" />
+          <img src="images/varun_portfolio_image.jpg" alt="Varun Jinjala" className="w-full h-full object-cover" />
         </motion.div>
       </div>
     </section>

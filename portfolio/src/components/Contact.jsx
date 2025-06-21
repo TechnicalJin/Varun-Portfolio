@@ -43,8 +43,8 @@ const Contact = () => {
               {[
                 { icon: <IoLocationOutline />, text: 'Surat, Gujarat, India', href: '#' },
                 { icon: <IoCallOutline />, text: '+91 8140511538', href: 'tel:+8140511538' },
-                { icon: <IoMailOutline />, text: 'akshatmehta220@gmail.com', href: 'mailto:akshatmehta220@gmail.com' },
-                { icon: <IoLogoGithub />, text: 'GitHub Profile', href: 'https://github.com/AkshatBytes' },
+                { icon: <IoMailOutline />, text: 'varunjinjala@gmail.com', href: 'mailto:varunjinjala@gmail.com' },
+                { icon: <IoLogoGithub />, text: 'GitHub Profile', href: 'https://github.com/TechnicalJin' },
               ].map((item, index) => (
                 <motion.li
                   key={index}
@@ -63,8 +63,8 @@ const Contact = () => {
             </ul>
             <div className="flex space-x-4 mt-8">
               {[
-                { href: 'https://www.linkedin.com/in/akshat-mehta-012250258', icon: <IoLogoLinkedin /> },
-                { href: 'https://www.instagram.com/akshat._mehta', icon: <IoLogoInstagram /> },
+                { href: 'https://www.linkedin.com/in/jinjala-varun-2a11182b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: <IoLogoLinkedin /> },
+                { href: 'https://www.instagram.com/_varun__.098/', icon: <IoLogoInstagram /> },
                 { href: 'https://twitter.com', icon: <IoLogoTwitter /> },
                 { href: 'https://www.facebook.com/share/18GN2QBXhv/', icon: <IoLogoFacebook /> },
               ].map((link, index) => (

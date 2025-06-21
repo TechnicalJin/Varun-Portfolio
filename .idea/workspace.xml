@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b3bba819-0011-42d2-b588-3dc594bddbb4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Portfolio.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

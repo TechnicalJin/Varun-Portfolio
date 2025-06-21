@@ -11,7 +11,7 @@ const Header = ({ theme, setTheme }) => {
     { name: 'Skills', href: '#skills' },
     { name: 'Timeline', href: '#timeline' },
     { name: 'Contact', href: '#contact' },
-    { name: 'Resume', href: './assets/Akshat_Resume.pdf', download: true },
+    { name: 'Resume', href: './assets/Varun_Resume.pdf', download: true },
   ];
 
   return (
@@ -24,7 +24,7 @@ const Header = ({ theme, setTheme }) => {
       >
         <div className="container mx-auto px-4 flex items-center justify-between">
           <a href="#" className="font-space-grotesk text-2xl font-bold text-light">
-            Akshat Mehta<span className="text-primary">.</span>
+            Varun Jinjala<span className="text-primary">.</span>
           </a>
           <nav className="hidden md:flex space-x-4">
             {navItems.map((item, index) => (
