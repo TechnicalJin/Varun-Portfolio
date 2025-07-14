@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Table(name = "contact_messages")
 @Data
 public class ContactMessage {
-    // Getters and Setters
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -29,4 +29,8 @@ public class ContactMessage {
 
     private LocalDateTime createdAt;
 
+    @PrePersist
+    protected void onCreate() {
+        createdAt = LocalDateTime.now();
+    }
 }
