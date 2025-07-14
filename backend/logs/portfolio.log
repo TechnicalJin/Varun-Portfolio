@@ -526,3 +526,32 @@ Caused by: org.springframework.util.PlaceholderResolutionException: Could not re
 2025-07-14T16:27:29.959+05:30  INFO 7004 --- [backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-07-14T16:27:29.971+05:30  INFO 7004 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-07-14T16:27:30.002+05:30  INFO 7004 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-14T17:56:09.029+05:30  INFO 2768 --- [backend] [main] c.v.portfolio.BackendApplicationTests    : Starting BackendApplicationTests using Java 17.0.12 with PID 2768 (started by jinja in C:\Users\jinja\OneDrive\Desktop\Portfolio\Portfolio\backend)
+2025-07-14T17:56:09.036+05:30 DEBUG 2768 --- [backend] [main] c.v.portfolio.BackendApplicationTests    : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-14T17:56:09.039+05:30  INFO 2768 --- [backend] [main] c.v.portfolio.BackendApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-07-14T17:56:11.138+05:30  INFO 2768 --- [backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-14T17:56:11.312+05:30  INFO 2768 --- [backend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+2025-07-14T17:56:12.554+05:30  INFO 2768 --- [backend] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-14T17:56:12.780+05:30  INFO 2768 --- [backend] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-14T17:56:12.902+05:30  INFO 2768 --- [backend] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-14T17:56:13.899+05:30  INFO 2768 --- [backend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-14T17:56:13.980+05:30  INFO 2768 --- [backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-14T17:56:14.763+05:30  INFO 2768 --- [backend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c754401
+2025-07-14T17:56:14.769+05:30  INFO 2768 --- [backend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-14T17:56:14.880+05:30  WARN 2768 --- [backend] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-14T17:56:14.896+05:30  WARN 2768 --- [backend] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-14T17:56:15.012+05:30  INFO 2768 --- [backend] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-14T17:56:17.169+05:30  INFO 2768 --- [backend] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-14T17:56:17.332+05:30  INFO 2768 --- [backend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-14T17:56:18.255+05:30  WARN 2768 --- [backend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-14T17:56:19.194+05:30  INFO 2768 --- [backend] [main] c.v.portfolio.BackendApplicationTests    : Started BackendApplicationTests in 11.144 seconds (process running for 13.742)
+2025-07-14T17:56:20.263+05:30  INFO 2768 --- [backend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-14T17:56:20.267+05:30  INFO 2768 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-14T17:56:20.297+05:30  INFO 2768 --- [backend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
