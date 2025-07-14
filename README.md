@@ -1,4 +1,3 @@
-
 # 🚀 Varun Jinjala's Developer Portfolio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jinjala-varun-2a11182b4)
@@ -8,81 +7,63 @@
 
 ## 📌 What is the Project?
 
-This is a **Personal Portfolio Website** built to showcase the skills, projects, and achievements of **Varun Jinjala**, a passionate **Java Backend Developer**. It reflects modern development practices, clean UI, and responsive design — backed by enterprise-grade technologies.
+This is a **Personal Developer Portfolio Website** built to showcase the skills, projects, and achievements of **Varun Jinjala**, a passionate **Java Backend Developer**.  
+It features a modern UI, real backend integration, responsive design, and live API testing.
+
 
 ---
 
 ## ✨ Features
 
-- 🏠 **Home Page**: Welcome section with intro & CTA buttons.
-- 👨‍💻 **About Me**: Education, experience, and personal background.
-- 🛠️ **Technical Skills**: Categorized into backend, frontend, cloud, tools, and security.
-- 💼 **Projects**: Multiple projects with descriptions, tech stacks & links to GitHub/demo.
-- 📬 **Contact Form**: Backend-validated contact form for sending direct emails.
-- 📱 **Responsive Design**: Mobile-first, clean, and fully adaptive layout.
-- 🎯 **Smooth Animations**: Subtle scroll animations and modern UI transitions.
+- 🏠 **Home Page**: Intro with typewriter effect, CTA buttons, and profile section.
+- 👨‍💻 **About Me**: Education, experience, and quick overview.
+- 🛠️ **Technical Skills**: Well-categorized stack - backend, frontend, tools, etc.
+- 💼 **Projects**: Detailed project cards with GitHub and live links.
+- 📬 **Contact Form**: React form with validations, powered by backend API.
+- 📱 **Responsive Design**: Mobile-first layout using Tailwind CSS.
+- 🎯 **Smooth Animations**: Scroll-triggered transitions and hover effects.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer          | Technologies                                                                       |
-|----------------|-------------------------------------------------------------------------------------|
-| 🔙 **Backend** | Java, Spring Boot, Spring Data JPA, Hibernate, REST APIs, Microservices, Security  |
-| 🛢️ **Database**| MySQL                                                                              |
-| ☁️ **Tools**   | Git, Postman                                                                        |
-| 💻 **Frontend**| React.js, JavaScript, HTML5/CSS3, Tailwind CSS                                     |
-| 📦 **Others**  | Thymeleaf (for server-side rendering when needed)                                  |
+| Layer          | Technologies                                                                 |
+|----------------|-------------------------------------------------------------------------------|
+| 🔙 **Backend** | Java, Spring Boot, REST API, Spring Data JPA, Hibernate, Spring Security     |
+| 🛢️ **Database**| MySQL                                                                         |
+| 💻 **Frontend**| React.js, JavaScript, HTML5/CSS3, Tailwind CSS                              |
+| 🧪 **Testing**  | Postman                                                                       |
+| 🛠 **Tools**    | Git, GitHub, VS Code, IntelliJ, Maven                                        |
+| 🌐 **Others**   | Thymeleaf (for server-side rendering use cases)                             |
 
 ---
 
-## 🖥️ How to Run Locally
+## 🖥️ Local Setup Instructions
 
 ### ✅ Backend Setup
 
-1. Navigate to the backend folder:
-
-   ```bash
-   cd portfolio/backend
+```bash
+cd Varun-Portfolio/backend
+mvn spring-boot:run
 ````
 
-2. Start the Spring Boot application:
-
-   ```bash
-   mvn spring-boot:run
-   ```
-
-3. Ensure MySQL is running with a database named `portfolio_db` and credentials match `application.properties`.
+➡️ Ensure MySQL is running and your `application.properties` matches the correct DB name `portfolio_db`.
 
 ---
 
 ### 🌐 Frontend Setup
 
-1. Navigate to the frontend folder:
-
-   ```bash
-   cd portfolio/frontend
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
+```bash
+cd Varun-Portfolio/frontend
+npm install
+npm run dev
+```
 
 ---
 
 ## ⚙️ Prerequisites
 
-Ensure the following tools are installed on your system:
-
-* ✅ Java JDK 17+
+* ✅ Java 17+
 * ✅ Maven
 * ✅ Node.js & npm
 * ✅ MySQL Server
@@ -94,9 +75,17 @@ Ensure the following tools are installed on your system:
 
 ### 📁 Database Table (MySQL)
 
+> Path: `Portfolio_Database_Screenshot.png`
+> Make sure this image exists in your GitHub repo at the root level.
+
 ![Database Screenshot](https://raw.githubusercontent.com/TechnicalJin/Varun-Portfolio/main/Portfolio_Database_Screenshot.png)
 
+---
+
 ### 🧪 Postman API Testing
+
+> Path: `Portfolio_Testing_Postman.png`
+> This should also be uploaded in the root of your repo.
 
 ![Postman Screenshot](https://raw.githubusercontent.com/TechnicalJin/Varun-Portfolio/main/Portfolio_Testing_Postman.png)
 
@@ -104,9 +93,10 @@ Ensure the following tools are installed on your system:
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-Feel free to **fork** the repository and submit a **pull request**.
-For major changes, please open an **issue** first to discuss improvements.
+Contributions are always welcome!
+Fork the repository, make your changes, and submit a pull request.
+
+For major changes, please open an issue first to discuss what you’d like to change.
 
 ---
 
@@ -114,7 +104,7 @@ For major changes, please open an **issue** first to discuss improvements.
 
 **Varun Jinjala**
 🚀 Java Backend Developer
-🌐 [Portfolio Website](https://github.com/TechnicalJin)
+🌐 [GitHub Portfolio](https://github.com/TechnicalJin)
 📫 [LinkedIn](https://www.linkedin.com/in/jinjala-varun-2a11182b4)
 
 ---
@@ -125,27 +115,29 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> ⭐ *Star this repository to show your support!*
+## ⭐ Star the Repo
+
+If you like this project, **please give it a star** to show your support and help others find it!
 
 ---
 
-### ℹ️ Screenshot Path Reference
+### ℹ️ Screenshot Hosting Tip
 
-The image links use GitHub’s raw content URL:
+To ensure screenshots render properly:
+
+1. Add the images (`Portfolio_Database_Screenshot.png`, `Portfolio_Testing_Postman.png`) directly to the root of your repository.
+2. Use this format for the image link:
 
 ```
-https://raw.githubusercontent.com/TechnicalJin/Varun-Portfolio/main/<IMAGE_NAME>
+https://raw.githubusercontent.com/<USERNAME>/<REPO_NAME>/main/<IMAGE_NAME>
 ```
 
-For example:
+Example:
 
-* `Portfolio_Database_Screenshot.png`
-* `Portfolio_Testing_Postman.png`
+```
+https://raw.githubusercontent.com/TechnicalJin/Varun-Portfolio/main/Portfolio_Database_Screenshot.png
+```
+
+Make sure the filename is **case-sensitive and correct**.
 
 ---
-
-Let me know if you'd like to:
-
-* Add a **deployment section** (e.g., Netlify, Render, Railway).
-* Show **live project badges** (visits, stars, forks).
-* Embed **GIF previews** of UI animations.
