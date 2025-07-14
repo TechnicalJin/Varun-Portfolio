@@ -1,10 +1,4 @@
-You're right! The Markdown syntax got slightly broken due to incorrect usage of triple backticks (` ``` `) around Markdown content **inside** your `README.md`, which caused rendering issues in the preview.
 
----
-
-### ✅ Here's the **fully corrected version** of your `README.md`, clean and ready to paste:
-
-````md
 # 🚀 Varun Jinjala's Developer Portfolio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jinjala-varun-2a11182b4)
